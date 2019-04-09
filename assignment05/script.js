@@ -59,7 +59,7 @@ $(document).ready(function () {
                     var s = "";
                     s += "<img src='" + parsedData.image_filename + "'/>";
                     s += "<p>Hire Data: " + parsedData.hire_date + "</p>";
-                    s += "<p>Salary: " + accounting.parsedData.annual_salary + "</p>";
+                    s += "<p>Salary: " + accounting.formatMoney(parsedData.annual_salary) + "</p>";
                     s += "<p>Department: " + parsedData.department.name + "</p>";
                     $('#dialog').html(s);
                     console.log("set html to " + s);
