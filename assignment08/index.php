@@ -8,7 +8,7 @@
 
     function poundsToKg($pounds) {
         $kg = $pounds * (1 / 2.2);
-        return kg;
+        return $kg;
     }
 
 ?>
